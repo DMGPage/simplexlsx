@@ -1,4 +1,4 @@
-# SimpleXLSX class (Official)
+# SimpleXLSX class
 [<img src="https://img.shields.io/github/license/shuchkin/simplexlsx" />](https://github.com/shuchkin/simplexlsx/blob/master/license.md) 
 
 Parse and retrieve data from Excel XLSx files. MS Excel 2007 workbooks PHP reader.
