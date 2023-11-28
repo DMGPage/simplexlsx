@@ -1,14 +1,20 @@
 {
-  "name": "DMGPage/simplexlsx",
+  "name": "dmgpage/simplexlsx",
   "description": "Parse and retrieve data from Excel XLSx files. MS Excel 2007 workbooks PHP reader.",
   "keywords": ["php", "excel", "xlsx", "parser", "backend"],
-  "homepage": "https://github.com/shuchkin/simplexlsx",
+  "homepage": "https://github.com/dmgpage/simplexlsx",
   "license": "MIT",
   "authors": [
     {
       "name": "Sergey Shuchkin (SMSPILOT)",
       "email": "sergey.shuchkin@gmail.com",
       "homepage": "https://github.com/shuchkin"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
     }
   ],
   "autoload": {
