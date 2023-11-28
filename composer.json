@@ -1,5 +1,5 @@
 {
-  "name": "shuchkin/simplexlsx",
+  "name": "DMGPage/simplexlsx",
   "description": "Parse and retrieve data from Excel XLSx files. MS Excel 2007 workbooks PHP reader.",
   "keywords": ["php", "excel", "xlsx", "parser", "backend"],
   "homepage": "https://github.com/shuchkin/simplexlsx",
