@@ -1,23 +1,14 @@
 # SimpleXLSX class (Official)
-[<img src="https://img.shields.io/packagist/dt/shuchkin/simplexlsx" />](https://packagist.org/packages/shuchkin/simplexlsx)
-[<img src="https://img.shields.io/github/license/shuchkin/simplexlsx" />](https://github.com/shuchkin/simplexlsx/blob/master/license.md) [<img src="https://img.shields.io/github/stars/shuchkin/simplexlsx" />](https://github.com/shuchkin/simplexlsx/stargazers) [<img src="https://img.shields.io/github/forks/shuchkin/simplexlsx" />](https://github.com/shuchkin/simplexlsx/network) [<img src="https://img.shields.io/github/issues/shuchkin/simplexlsx" />](https://github.com/shuchkin/simplexlsx/issues)
-[<img src="https://img.shields.io/opencollective/all/simplexlsx" />](https://opencollective.com/simplexlsx)
-[<img src="https://img.shields.io/badge/patreon-_-_" />](https://www.patreon.com/shuchkin)
+[<img src="https://img.shields.io/github/license/shuchkin/simplexlsx" />](https://github.com/shuchkin/simplexlsx/blob/master/license.md) 
 
 Parse and retrieve data from Excel XLSx files. MS Excel 2007 workbooks PHP reader.
 No addiditional extensions need (internal unzip + standart SimpleXML parser).
 
-See also:<br/>
-[SimpleXLS](https://github.com/shuchkin/simplexls) old format MS Excel 97 php reader.<br/>
-[SimpleXLSXGen](https://github.com/shuchkin/simplexlsxgen) xlsx php writer.  
-
-*Hey, bro, please ★ the package for my motivation :) and [donate](https://opencollective.com/simplexlsx) for more motivation!*
-
-**Sergey Shuchkin** <sergey.shuchkin@gmail.com>
+This is branch of [shuchkin/simplexlsx](https://github.com/shuchkin/simplexlsx) with some additional fixes.
 
 ## Basic Usage
 ```php
-use Shuchkin\SimpleXLSX;
+use dmgpage\SimpleXLSX;
 
 if ( $xlsx = SimpleXLSX::parse('book.xlsx') ) {
     print_r( $xlsx->rows() );
@@ -54,9 +45,9 @@ The recommended way to install this library is [through Composer](https://getcom
 
 This will install the latest supported version:
 ```bash
-$ composer require shuchkin/simplexlsx
+$ composer require dmgpage/simplexlsx
 ```
-or download PHP 5.5+ class [here](https://github.com/shuchkin/simplexlsx/blob/master/src/SimpleXLSX.php)
+or download PHP 5.5+ class [here](https://github.com/dmgpage/simplexlsx/blob/master/src/SimpleXLSX.php)
 
 ## Basic methods
 ```
@@ -289,7 +280,7 @@ Array
 ```
 ### Debug
 ```php
-use Shuchkin\SimpleXLSX;
+use dmgpage\SimpleXLSX;
 
 ini_set('error_reporting', E_ALL );
 ini_set('display_errors', 1 );
@@ -313,7 +304,7 @@ if ( $xlsx->success() ) {
     echo 'xlsx error: '.$xlsx->error();
 }
 ```
-More examples [here](https://github.com/shuchkin/simplexlsx/tree/master/examples)
+More examples [here](https://github.com/dmgpage/simplexlsx/tree/master/examples)
 
 ### Error Codes
 SimpleXLSX::ParseErrno(), $xlsx->errno()<br/>
@@ -326,3 +317,10 @@ SimpleXLSX::ParseErrno(), $xlsx->errno()<br/>
 <tr><td>5</td><td>Entry not found</td><td>File not found in ZIP archive</td></tr>
 <tr><td>6</td><td>Worksheet not found</td><td>Not exists</td></tr>
 </table>
+
+<br>
+<p align="center">
+    <a href="http://www.dmgpage.lv/" target="_blank" rel="external">
+        <img src="http://www.dmgpage.lv/img/logo-black.png">
+    </a>
+</p>
