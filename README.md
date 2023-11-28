@@ -8,7 +8,7 @@ This is branch of [shuchkin/simplexlsx](https://github.com/shuchkin/simplexlsx) 
 
 ## Basic Usage
 ```php
-use dmgpage\SimpleXLSX;
+use Shuchkin\SimpleXLSX;
 
 if ( $xlsx = SimpleXLSX::parse('book.xlsx') ) {
     print_r( $xlsx->rows() );
@@ -280,7 +280,7 @@ Array
 ```
 ### Debug
 ```php
-use dmgpage\SimpleXLSX;
+use Shuchkin\SimpleXLSX;
 
 ini_set('error_reporting', E_ALL );
 ini_set('display_errors', 1 );
